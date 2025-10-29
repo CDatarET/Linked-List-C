@@ -2,7 +2,7 @@
 Authored by Chaitanya Datar
 Panel F1 #8
 1262242226
-*/
+*/ //is there anything wrong? assume head is dummyhead and real head is head.next 
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -50,7 +50,7 @@ void deleteAtIndex(struct node *head){
     int index;
     scanf("%d", &index);
 
-    if(len(head) < index || index < 0){
+    if(index < 0 || len(head) <= index){
         printf("Invalid position\n");
         return;
     }
