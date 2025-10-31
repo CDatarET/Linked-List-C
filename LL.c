@@ -2,7 +2,7 @@
 Authored by Chaitanya Datar
 Panel F1 #8
 1262242226
-*/ //is there anything wrong? assume head is dummyhead and real head is head.next 
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
